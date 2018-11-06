@@ -15,7 +15,7 @@ spec:
         app: hello-server
     spec:
       containers:
-       - image: sc-demo/hello-world:1.0.0
+       - image: hub.tansun.com/test/helloworld:1.0-SNAPSHOT
          imagePullPolicy: IfNotPresent
          name: hello-server
          resources:
